@@ -1,0 +1,70 @@
+.imagem {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   color: aliceblue;
+   border-radius: 50%;
+}
+
+
+.img-centro {
+   text-align: center;
+}
+
+
+body {
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 20px;
+   background-color: rgb(126, 199, 233);
+}
+
+h1 {
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: 3.5rem;
+   font-weight: 400;
+}
+
+#imagen-centro {
+   text-align: center;
+}
+
+.main {
+   min-height: 100vh;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+}
+
+.game {
+   box-shadow: 10px 5px 15px rgb(5, 3, 3);
+   background-color: #17619e;
+   padding: 1.8rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.game>div {
+   padding: 0.5rem;
+}
+
+.form input,
+.form label,
+.form button {
+   margin-top: 1rem;
+   font-size: inherit;
+   font-family: inherit;
+   padding: 0.5rem;
+   color: #070852;
+}
+
+.form button {
+   cursor: pointer;
+   color: black;
+}
+
+.form button:hover {
+   filter: opacity(0.8);
+}
